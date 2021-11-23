@@ -1,38 +1,147 @@
 .App {
-  text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    /* background-color:#0f0f0f; */
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    /* width: 100%; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+    margin: 0 auto;
+    /* height: auto; */
+}
+.info {
+    margin-left: 20px;
+    line-height: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.description {
+    margin-left: 20px;
+}
+.divbox1 {
+    width: 22%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: hsl(267 95% 76% / 0.6) 0px 1px 15px;
+    overflow: hidden;
+    text-align: left;
+    height: 450px;
+    /* background-color:  rgba(187,134,252, 0.2) ; */
+}
+.containerModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 4px;
+    height: 95vh;
+    overflow-y: scroll;
+}
+.divbox1modal {
+    width: 100%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.divbox2 {
+    width: 22%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: hsl(267 95% 76% / 0.6) 0px 1px 15px;
+    overflow: hidden;
+    text-align: left;
+    height: 350px;
+    /* height: 600px; */
+    /* background-color:  rgba(187,134,252, 0.2) ; */
 }
 
-.App-link {
-  color: #61dafb;
+.divbox3 {
+    width: 22%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: hsl(267 95% 76% / 0.6) 0px 1px 15px;
+    overflow: hidden;
+    text-align: left;
+    /* height: 600px; */
+    /* background-color:  rgba(187,134,252, 0.2) ; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divbox4 {
+    width: 22%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: hsl(267 95% 76% / 0.6) 0px 1px 15px;
+    overflow: hidden;
+    text-align: left;
+    height: 230px;
+    /* background-color:  rgba(187,134,252, 0.2) ; */
+}
+.imgContainer {
+    /* height: 280px; */
+    overflow: hidden;
+}
+
+.imgPoster {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.share {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    /* float: left; */
+}
+
+.sharetext {
+    color: rgba(0, 204, 255, 0.938);
+}
+
+.exploretext {
+    color: rgba(0, 204, 255, 0.938);
+}
+
+.avatar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ava {
+    margin-left: 10px !important;
+}
+
+.nameWrapper {
+    line-height: 0px;
+    margin-left: 15px;
+}
+
+.sharetext4 {
+    width: 10%;
+}
+
+.locationtext {
+    width: 7%;
+}
+
+.bookmarktext {
+    width: 7%;
+}
+.share4 {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+    /* float: left; */
 }
